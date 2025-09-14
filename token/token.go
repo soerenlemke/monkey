@@ -33,6 +33,10 @@ const (
 	SLASH    = "/"
 	LT       = "<"
 	GT       = ">"
+
+	// Comparison operators
+	EQ     = "=="
+	NOT_EQ = "!="
 )
 
 type TokenType string
