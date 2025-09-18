@@ -578,7 +578,6 @@ func TestFunctionParameterParsing(t *testing.T) {
 	}
 }
 
-/*
 func TestCallExpressionParsing(t *testing.T) {
 	input := "add(1, 2 * 3, 4 + 5);"
 
@@ -670,8 +669,6 @@ func TestCallExpressionParameterParsing(t *testing.T) {
 		}
 	}
 }
-
-*/
 
 func testLetStatement(t *testing.T, s ast.Statement, name string) bool {
 	if s.TokenLiteral() != "let" {
