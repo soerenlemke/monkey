@@ -501,7 +501,6 @@ func TestIfElseExpression(t *testing.T) {
 	}
 }
 
-/*
 func TestFunctionLiteralParsing(t *testing.T) {
 	input := `fn(x, y) { x + y; }`
 
@@ -579,6 +578,7 @@ func TestFunctionParameterParsing(t *testing.T) {
 	}
 }
 
+/*
 func TestCallExpressionParsing(t *testing.T) {
 	input := "add(1, 2 * 3, 4 + 5);"
 
